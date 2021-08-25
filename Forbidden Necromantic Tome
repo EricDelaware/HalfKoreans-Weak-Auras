@@ -1,0 +1,158 @@
+{
+    ["iconSource"] = -1,
+    ["xOffset"] = -530,
+    ["yOffset"] = -390,
+    ["anchorPoint"] = "CENTER",
+    ["cooldownSwipe"] = true,
+    ["cooldownEdge"] = true,
+    ["actions"] = {
+        ["start"] = {
+        },
+        ["finish"] = {
+        },
+        ["init"] = {
+        },
+    },
+    ["triggers"] = {
+        [1] = {
+            ["trigger"] = {
+                ["type"] = "aura2",
+                ["useStacks"] = true,
+                ["subeventSuffix"] = "_CAST_START",
+                ["ownOnly"] = true,
+                ["event"] = "Health",
+                ["subeventPrefix"] = "SPELL",
+                ["spellIds"] = {
+                },
+                ["auraspellids"] = {
+                    [1] = "356029",
+                },
+                ["unit"] = "player",
+                ["names"] = {
+                },
+                ["useExactSpellId"] = true,
+                ["debuffType"] = "HELPFUL",
+            },
+            ["untrigger"] = {
+            },
+        },
+        ["activeTriggerMode"] = -10,
+    },
+    ["internalVersion"] = 45,
+    ["keepAspectRatio"] = false,
+    ["selfPoint"] = "CENTER",
+    ["desaturate"] = false,
+    ["rotation"] = 0,
+    ["subRegions"] = {
+        [1] = {
+            ["text_shadowXOffset"] = 0,
+            ["text_text_format_s_format"] = "none",
+            ["text_text"] = "%s",
+            ["text_shadowColor"] = {
+                [1] = 0,
+                [2] = 0,
+                [3] = 0,
+                [4] = 1,
+            },
+            ["text_selfPoint"] = "AUTO",
+            ["text_automaticWidth"] = "Auto",
+            ["text_fixedWidth"] = 64,
+            ["anchorYOffset"] = 0,
+            ["text_justify"] = "CENTER",
+            ["rotateText"] = "NONE",
+            ["type"] = "subtext",
+            ["text_color"] = {
+                [1] = 1,
+                [2] = 0.43921568627451,
+                [3] = 0,
+                [4] = 1,
+            },
+            ["text_font"] = "Friz Quadrata TT",
+            ["text_text_format_p_time_precision"] = 1,
+            ["text_shadowYOffset"] = 0,
+            ["text_text_format_p_time_dynamic_threshold"] = 60,
+            ["text_wordWrap"] = "WordWrap",
+            ["text_visible"] = true,
+            ["text_anchorPoint"] = "INNER_BOTTOMLEFT",
+            ["text_text_format_p_time_format"] = 0,
+            ["text_text_format_p_format"] = "timed",
+            ["text_fontSize"] = 16,
+            ["anchorXOffset"] = 0,
+            ["text_fontType"] = "MONOCHROME|OUTLINE",
+        },
+    },
+    ["height"] = 95,
+    ["rotate"] = true,
+    ["load"] = {
+        ["talent"] = {
+            ["multi"] = {
+            },
+        },
+        ["spec"] = {
+            ["multi"] = {
+            },
+        },
+        ["class"] = {
+            ["multi"] = {
+            },
+        },
+        ["size"] = {
+            ["multi"] = {
+            },
+        },
+    },
+    ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+    ["discrete_rotation"] = 0,
+    ["color"] = {
+        [1] = 1,
+        [2] = 1,
+        [3] = 1,
+        [4] = 1,
+    },
+    ["mirror"] = false,
+    ["useTooltip"] = false,
+    ["regionType"] = "icon",
+    ["icon"] = true,
+    ["blendMode"] = "BLEND",
+    ["information"] = {
+    },
+    ["conditions"] = {
+    },
+    ["texture"] = "Interface\\\\Addons\\\\WeakAuras\\\\PowerAurasMedia\\\\Auras\\\\Aura3",
+    ["config"] = {
+    },
+    ["zoom"] = 0,
+    ["cooldownTextDisabled"] = false,
+    ["width"] = 95,
+    ["id"] = "HK's Weak Auras - Forbidden Necromantic Tome",
+    ["alpha"] = 1,
+    ["frameStrata"] = 1,
+    ["anchorFrameType"] = "SCREEN",
+    ["authorOptions"] = {
+    },
+    ["uid"] = "j0qZdI9HTCV",
+    ["inverse"] = false,
+    ["animation"] = {
+        ["start"] = {
+            ["easeStrength"] = 3,
+            ["type"] = "none",
+            ["duration_type"] = "seconds",
+            ["easeType"] = "none",
+        },
+        ["main"] = {
+            ["easeStrength"] = 3,
+            ["type"] = "none",
+            ["duration_type"] = "seconds",
+            ["easeType"] = "none",
+        },
+        ["finish"] = {
+            ["easeStrength"] = 3,
+            ["type"] = "none",
+            ["duration_type"] = "seconds",
+            ["easeType"] = "none",
+        },
+    },
+    ["displayIcon"] = "356029",
+    ["cooldown"] = true,
+    ["desc"] = "I couldn't find a stand alone WA for this trinket and the one I found that was bundled with other trinkets doesn't function quite like I wanted so I decided to try and make one myself.\\n\\nTracks the proc and remaining duration of the buff and the amount of stacks of said buff in the bottom left corner.\\n\\nThis is my first attempt at a WA so we'll see how it goes.",
+}
